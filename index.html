@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="img/favicon.png" />
+
+    <title>Youtube Mobile</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="https://www.youtube.com">
+          <i class="fab fa-youtube"></i>
+          <span class="header__title">YouTube</span>
+        </a>
+      </div>
+      <div class="header__icon">
+        <i class="fas fa-search"></i>
+        <span class="header__user">M</span>
+      </div>
+    </header>
+
+    <section class="player">
+      <div class="player__container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/o9Phw-cJqBQ"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+
+    <div class="info_upNext">
+      <section class="info">
+        <div class="info__metadata">
+          <div class="info__hash">
+            <a href="#" class="info__hash-item">#Dreamy</a>
+            <a href="#" class="info__hash-item">#lofi</a>
+            <a href="#" class="info__hash-item">#beats</a>
+          </div>
+
+          <h1>
+            <a class="heading-primary" href="#">Guitar Vibe ● lofi hiphop mix</a>
+          </h1>
+
+          <span class="info__sub subheading">515,313 views • 2019. 11. 29.</span>
+        </div>
+
+        <div class="actions">
+          <button class="actions__icon"><i class="fas fa-thumbs-up"></i>20K</button>
+          <button class="actions__icon"><i class="fas fa-thumbs-down"></i>115</button>
+          <button class="actions__icon"><i class="fas fa-plus"></i>Save</button>
+          <button class="actions__icon"><i class="fab fa-font-awesome-flag"></i>Report</button>
+        </div>
+
+        <div class="info__channel">
+          <a href="https://www.youtube.com/channel/UCYVyQv2rUtCMxJAFSuOSpmg/featured">
+            <img class="info__img" src="/img/channel.jpg" alt="channel photo" />
+          </a>
+
+          <div class="info__channel-data">
+            <a
+              class="heading-2"
+              href="https://www.youtube.com/channel/UCYVyQv2rUtCMxJAFSuOSpmg/featured"
+            >
+              Dreamy
+            </a>
+            <p class="subheading">35.2K subscribers</p>
+          </div>
+
+          <button class="btn--subscribe btnSubscribe">Subscribe</button>
+          <i class="far fa-bell iconBell"></i>
+        </div>
+      </section>
+
+      <section class="up-next">
+        <span>Up next</span>
+        <ul class="up-next__list">
+          <li class="up-next__item">
+            <a class="up-next__video" href="#">
+              <img src="/img/list-1.jpg" alt="playlist 1" />
+            </a>
+            <div class="up-next__info">
+              <a class="heading-2" href="#">My Travel Log</a>
+              <span class="subheading">It's Dreamy</span>
+              <span class="subheading">56K views &middot; 4 months ago</span>
+            </div>
+            <button class="btn--more"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+
+          <li class="up-next__item">
+            <a class="up-next__video" href="#">
+              <img src="/img/list-2.jpg" alt="playlist 2" />
+            </a>
+            <div class="up-next__info">
+              <a class="heading-2" href="#">Breathing dreams like air</a>
+              <span class="subheading">Dreamy</span>
+              <span class="subheading">207K views &middot; 1 year ago</span>
+            </div>
+            <button class="btn--more"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+
+          <li class="up-next__item">
+            <a class="up-next__video" href="#">
+              <img src="/img/list-3.jpg" alt="playlist 3" />
+            </a>
+            <div class="up-next__info">
+              <a class="heading-2" href="#">Peaceful Days in my life</a>
+              <span class="subheading">Blue water</span>
+              <span class="subheading">137K views &middot; 16 hours ago</span>
+            </div>
+            <button class="btn--more"><i class="fas fa-ellipsis-v"></i></button>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
